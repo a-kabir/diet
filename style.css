@@ -2,50 +2,147 @@ body{
     margin: 0;
     font-family: 'Bona Nova', serif;
 }
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(-90deg, #146268, #23D5AB);
+  padding: 0 50px 0 50px;
+  flex-wrap: wrap;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+    margin: auto;
+    font-size: 20px;
+    padding: 0 60px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+  color: rgb(23, 109, 1);
+  background: rgb(255, 255, 255);
+}
 section{
     display: flex;
+    height: 500px;
+    padding-bottom: 150px;
 }
-div{
+.order{
     height: 400px;
 }
+
 h1{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(103, 100, 100);
     font-weight: 700;
 }
-span{
+h1 span{
     font-weight: 700;
     color: #ea649a;
 }
 .half{
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 50px;
     width: 50%;
+    float: left;
+
 }
 .half img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-p{
-    color: #9c9a9c;
-    font-size: 15px;
+
 }
 
-a{
+p{
+    color: #5b4f5c;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.internal-a{
     text-decoration: none;
     color: white;
-    margin-top: 40px;
-    padding: 10px 18px 10px 18px;
+    padding: 10px 20px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 700;
     border: none;
     background: linear-gradient(-90deg, #146268, #23D5AB);
     box-shadow: 2px 2px 2px 2px rgba(233, 249, 255, 0.952);
 }
-#second{
+.about{
+    height: 400px;
     background-image: url(images/background.png);
+    background-size: cover;
 }
 
-h4{
+.about p{
+    margin-right: 20px;
+    line-height: 1.4;
+}
+
+h2{
     font-size: 30px;
+    color: rgb(103, 100, 100);
+}
+
+.center{
+    margin: 5px 300px 0px 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.full-pack{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+}
+.full-pack div{
+    box-shadow: 5px 7px 40px gray;
+    height: 100%;
+    width: 70%;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.salad{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+h3{
+    color: rgb(66, 55, 55);
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.recipe-p{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.followers{
+    box-shadow: 5px 7px 40px gray;
+    height: 0px;
+    width: 1250px;
+    margin-left: 11%;
+    border-radius: 10px;
+    line-height: 0.1;
+    font-size: 12px;
+    text-align: center;
+}
+.followers div{
+    padding: 10px 150px;
 }
