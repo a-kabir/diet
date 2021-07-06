@@ -122,6 +122,8 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 18px;
+    height: 45%;
+    width: 90%;
 }
 h3{
     color: rgb(66, 55, 55);
@@ -132,6 +134,8 @@ h3{
 .recipe-p{
     padding-left: 18px;
     padding-right: 18px;
+    height: 30%;
+    width: 90%;
 }
 .followers{
     box-shadow: 5px 7px 40px gray;
